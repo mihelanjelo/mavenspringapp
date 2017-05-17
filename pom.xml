@@ -41,46 +41,11 @@
               <groupId>org.apache.tomcat.maven</groupId>
               <artifactId>tomcat7-maven-plugin</artifactId>
               <version>2.2</version>
-              <executions>
-                  <execution>
-                      <id>start-tomcat</id>
-                      <phase>pre-integration-test</phase>
-                      <goals>
-                          <goal>run</goal>
-                      </goals>
-                  </execution>
-
-                  <execution>
-                      <id>stop-tomcat</id>
-                      <phase>post-integration-test</phase>
-                      <goals>
-                          <goal>shutdown</goal>
-                      </goals>
-                  </execution>
-              </executions>
-              <configuration>
-                  <port>8890</port>
-                  <path>/</path>
-                  <fork>true</fork>
-              </configuration>
-          </plugin>
-
-          <plugin>
-              <groupId>org.codehaus.mojo</groupId>
-              <artifactId>exec-maven-plugin</artifactId>
-              <version>1.6.0</version>
-              <executions>
-                  <execution>
-                      <phase>verify</phase>
-                      <goals>
-                          <goal>exec</goal>
-                      </goals>
-                  </execution>
-              </executions>
-              <configuration>
-                  <executable>test.bat</executable>
-              </configuration>
-          </plugin>
+                <configuration>
+                    <port>8890</port>
+                    <path>/</path>
+                </configuration>
+            </plugin>
       </plugins>
   </build>
 </project>
