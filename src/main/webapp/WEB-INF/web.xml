@@ -2,6 +2,7 @@
  "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
  "http://java.sun.com/dtd/web-app_2_3.dtd" >
 
+
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
 
@@ -9,10 +10,19 @@
     <servlet-name>HelloController</servlet-name>
     <servlet-class>HelloController</servlet-class>
   </servlet>
+    <servlet>
+        <servlet-name>test</servlet-name>
+        <servlet-class>TestServlet</servlet-class>
+    </servlet>
 
   <servlet-mapping>
     <servlet-name>HelloController</servlet-name>
     <url-pattern>/servlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>test</servlet-name>
+    <url-pattern>/testServlet</url-pattern>
   </servlet-mapping>
 
 </web-app>
