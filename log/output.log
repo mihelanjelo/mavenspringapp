@@ -1,0 +1,46 @@
+2017-06-01 20:59:25,892  INFO log4jtest.LogFromProperties:13 - method is started
+2017-06-01 20:59:25,898 ERROR log4jtest.LogFromProperties:18 - can't divide on zero
+2017-06-01 21:01:13,763  INFO log4jtest.LogFromProperties:13 - method is started
+2017-06-01 21:01:13,771 ERROR log4jtest.LogFromProperties:18 - can't divide on zero
+java.lang.ArithmeticException: / by zero
+	at log4jtest.LogFromProperties.main(LogFromProperties.java:16)
+2017-06-01 21:25:33,471  INFO log4jtest.logwithconfig.LogXML:16 - 2. Info message
+2017-06-01 21:25:33,475  WARN log4jtest.logwithconfig.LogXML:17 - 3. Warn. message
+2017-06-01 21:25:33,475 ERROR log4jtest.logwithconfig.LogXML:18 - 4. Error message
+2017-06-01 21:25:33,476 FATAL log4jtest.logwithconfig.LogXML:19 - 5. Fatal message
+2017-06-01 21:29:22,810  INFO log4jtest.logwithconfig.LogXML:16 - 2. Info message
+2017-06-01 21:29:22,813  WARN log4jtest.logwithconfig.LogXML:17 - 3. Warn. message
+2017-06-01 21:29:22,818 ERROR log4jtest.logwithconfig.LogXML:18 - 4. Error message
+2017-06-01 21:29:22,820 FATAL log4jtest.logwithconfig.LogXML:19 - 5. Fatal message
+2017-06-01 21:35:22,011  INFO log4jtest.logwithconfig.LogXML:16 - 2. Info message
+2017-06-01 21:35:22,017  WARN log4jtest.logwithconfig.LogXML:17 - 3. Warn. message
+2017-06-01 21:35:22,017 ERROR log4jtest.logwithconfig.LogXML:18 - 4. Error message
+2017-06-01 21:35:22,018 FATAL log4jtest.logwithconfig.LogXML:19 - 5. Fatal message
+2017-06-01 21:37:01,830  INFO log4jtest.logwithconfig.LogXML:16 - 2. Info message
+2017-06-01 21:37:01,835  WARN log4jtest.logwithconfig.LogXML:17 - 3. Warn. message
+2017-06-01 21:37:01,835 ERROR log4jtest.logwithconfig.LogXML:18 - 4. Error message
+2017-06-01 21:37:01,836 FATAL log4jtest.logwithconfig.LogXML:19 - 5. Fatal message
+2017-06-01 21:38:34,003  INFO log4jtest.logwithconfig.LogXML:16 - 2. Info message
+2017-06-01 21:38:34,007  WARN log4jtest.logwithconfig.LogXML:17 - 3. Warn. message
+2017-06-01 21:38:34,008 ERROR log4jtest.logwithconfig.LogXML:18 - 4. Error message
+2017-06-01 21:38:34,008 FATAL log4jtest.logwithconfig.LogXML:19 - 5. Fatal message
+2017-06-01 21:38:47,408  INFO log4jtest.logwithconfig.LogXML:16 - 2. Info message
+2017-06-01 21:38:47,414  WARN log4jtest.logwithconfig.LogXML:17 - 3. Warn. message
+2017-06-01 21:38:47,414 ERROR log4jtest.logwithconfig.LogXML:18 - 4. Error message
+2017-06-01 21:38:47,414 FATAL log4jtest.logwithconfig.LogXML:19 - 5. Fatal message
+2017-06-01 21:40:15,439  INFO log4jtest.logwithconfig.LogXML:16 - 2. Info message
+2017-06-01 21:40:15,444  WARN log4jtest.logwithconfig.LogXML:17 - 3. Warn. message
+2017-06-01 21:40:15,444 ERROR log4jtest.logwithconfig.LogXML:18 - 4. Error message
+2017-06-01 21:40:15,444 FATAL log4jtest.logwithconfig.LogXML:19 - 5. Fatal message
+2017-06-01 21:46:44,734  INFO log4jtest.logwithconfig.LogXML:16 - 2. Info message
+2017-06-01 21:46:44,738  WARN log4jtest.logwithconfig.LogXML:17 - 3. Warn. message
+2017-06-01 21:46:44,738 ERROR log4jtest.logwithconfig.LogXML:18 - 4. Error message
+2017-06-01 21:46:44,738 FATAL log4jtest.logwithconfig.LogXML:19 - 5. Fatal message
+2017-06-01 21:50:39,492  INFO log4jtest.logwithconfig.LogXML:16 - 2. Info message
+2017-06-01 21:50:39,497  WARN log4jtest.logwithconfig.LogXML:17 - 3. Warn. message
+2017-06-01 21:50:39,497 ERROR log4jtest.logwithconfig.LogXML:18 - 4. Error message
+2017-06-01 21:50:39,497 FATAL log4jtest.logwithconfig.LogXML:19 - 5. Fatal message
+2017-06-01 22:21:03,201  INFO log4jtest.logwithconfig.LogXML:17 - 2. Info message
+2017-06-01 22:21:03,207  WARN log4jtest.logwithconfig.LogXML:18 - 3. Warn. message
+2017-06-01 22:21:03,207 ERROR log4jtest.logwithconfig.LogXML:19 - 4. Error message
+2017-06-01 22:21:03,208 FATAL log4jtest.logwithconfig.LogXML:20 - 5. Fatal message

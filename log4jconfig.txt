@@ -1,0 +1,6 @@
+# initialize root logger with level debug and call it EXT
+log4j.rootLogger=DEBUG, EXT
+# add a ConsoleAppender to the logger EXT
+log4j.appender.EXT=org.apache.log4j.ConsoleAppender
+# set that layout to be SimpleLayout
+log4j.appender.EXT.layout=org.apache.log4j.SimpleLayout
