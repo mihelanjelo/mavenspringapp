@@ -44,3 +44,8 @@ java.lang.ArithmeticException: / by zero
 2017-06-01 22:21:03,207  WARN log4jtest.logwithconfig.LogXML:18 - 3. Warn. message
 2017-06-01 22:21:03,207 ERROR log4jtest.logwithconfig.LogXML:19 - 4. Error message
 2017-06-01 22:21:03,208 FATAL log4jtest.logwithconfig.LogXML:20 - 5. Fatal message
+2017-06-01 23:49:44,520 DEBUG log4jtest.Log2Console:54 - 1. Debug-info
+2017-06-01 23:49:44,525  INFO log4jtest.Log2Console:55 - 2. Info
+2017-06-01 23:49:44,525  WARN log4jtest.Log2Console:56 - 3. Warn-info
+2017-06-01 23:49:44,525 ERROR log4jtest.Log2Console:57 - 4. Error-info
+2017-06-01 23:49:44,526 FATAL log4jtest.Log2Console:58 - 5. Fatal-info
